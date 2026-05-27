@@ -6,10 +6,15 @@ body {
 }
 
 .hero {
-  background: linear-gradient(135deg, #dff2ff, #ffffff);
-  padding: 20px 30px 60px;
+  background:
+    linear-gradient(rgba(224, 244, 255, 0.85), rgba(255, 255, 255, 0.90)),
+    url("logo.png");
+  background-size: cover;
+  background-position: center;
+  padding: 20px 30px 70px;
+  color: #1f2d3d;
 }
-
+}
 .navbar {
   display: flex;
   justify-content: center;
@@ -237,3 +242,9 @@ body {
   line-height: 1.4;
 }
 
+.hero-content h2 {
+  color: #003049;
+}
+.hero-content p {
+  color: #333;
+}
